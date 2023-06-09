@@ -189,18 +189,21 @@ function Main() {
               style={styles.input}
               onChangeText={(value) => onChangeHandler(value, "firstName")}
               value={form?.firstName}
+              placeholder="First Name"
             />
             <Text style={styles.modalText}>Last Name :</Text>
             <TextInput
               style={styles.input}
               onChangeText={(value) => onChangeHandler(value, "lastName")}
               value={form?.lastName}
+              placeholder="Last Name"
             />
             <Text style={styles.modalText}>Age :</Text>
             <TextInput
               style={styles.input}
               onChangeText={(value) => onChangeHandler(value, "age")}
               value={form?.age}
+              placeholder="Age"
             />
             <View
               style={{
